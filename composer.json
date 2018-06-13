@@ -11,27 +11,28 @@
             "homepage": "http://www.akeneo.com"
         }
     ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/0lukas/Batch" },
+        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtils" }
+    ],
     "require": {
         "php": ">=7.1.0",
-        "akeneo/storage-utils-bundle": "0.6.x-dev",
-        "akeneo/storage-utils": "0.6.x-dev",
-        "akeneo/batch": "0.6.x-dev",
-        "symfony/config": "^2.3",
-        "symfony/console": "^2.3",
-        "symfony/dependency-injection": "^2.3",
-        "symfony/event-dispatcher": "^2.3",
-        "symfony/http-foundation": "^2.3",
-        "symfony/http-kernel": "^2.3",
-        "symfony/translation": "^2.3",
-        "symfony/process": "^2.3",
-        "symfony/security": "^2.3",
-        "symfony/validator": "^2.3",
-        "symfony/yaml": "^2.3",
-        "symfony/framework-bundle": "^2.3",
-        "doctrine/orm": "^2.1.3",
-        "monolog/monolog": "^1.1.0",
-        "twig/extensions": "1.2.0",
-        "symfony/swiftmailer-bundle": "2.3.8"
+        "0lukas/storage-utils": "dev-master",
+        "0lukas/batch": "dev-master",
+        "symfony/config": "^4.1",
+        "symfony/console": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/event-dispatcher": "^4.1",
+        "symfony/http-kernel": "^4.1",
+        "symfony/translation": "^4.1",
+        "symfony/process": "^4.1",
+        "symfony/security": "^4.1",
+        "symfony/validator": "^4.1",
+        "symfony/framework-bundle": "^4.1",
+        "doctrine/orm": "^2.7",
+        "monolog/monolog": "^2.3",
+        "twig/extensions": "^2.0",
+        "symfony/swiftmailer-bundle": "^4.0"
     },
     "require-dev": {
         "phpspec/phpspec": "3.0.0"
