@@ -1,5 +1,5 @@
 {
-    "name": "akeneo/batch-bundle",
+    "name": "vimex/batch-bundle",
     "type": "symfony-bundle",
     "description": "Akeneo Symfony Batch Bundle",
     "keywords": ["Akeneo", "Batch", "Job", "Reader", "Writer", "Processor"],
