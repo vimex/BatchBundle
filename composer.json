@@ -1,5 +1,5 @@
 {
-    "name": "akeneo/batch-bundle",
+    "name": "vimex/batch-bundle",
     "type": "symfony-bundle",
     "description": "Akeneo Symfony Batch Bundle",
     "keywords": ["Akeneo", "Batch", "Job", "Reader", "Writer", "Processor"],
@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "akeneo/storage-utils": "dev-master",
-        "akeneo/batch": "dev-master",
+        "vimex/storage-utils": "dev-master",
+        "vimex/batch": "dev-master",
         "symfony/config": "^4.1",
         "symfony/console": "^4.1",
         "symfony/dependency-injection": "^4.1",
