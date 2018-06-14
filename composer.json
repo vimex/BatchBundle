@@ -43,10 +43,5 @@
     "autoload": {
         "psr-4": { "Akeneo\\Bundle\\BatchBundle\\": "" }
     },
-    "minimum-stability": "stable",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.6.x-dev"
-        }
-    }
+    "minimum-stability": "dev"
 }
