@@ -27,7 +27,7 @@
         "symfony/validator": "^3.4||^4.0",
         "symfony/framework-bundle": "^3.4||^4.0",
         "doctrine/orm": "^2.5",
-        "monolog/monolog": "^2.3",
+        "monolog/monolog": "^1.22|^2.3",
         "twig/extensions": "^1.0",
         "symfony/swiftmailer-bundle": "^2.6.4||^3.2.2"
     },
