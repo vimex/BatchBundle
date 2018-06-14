@@ -1,5 +1,5 @@
 {
-    "name": "0lukas/batch-bundle",
+    "name": "akeneo/batch-bundle",
     "type": "symfony-bundle",
     "description": "Akeneo Symfony Batch Bundle",
     "keywords": ["Akeneo", "Batch", "Job", "Reader", "Writer", "Processor"],
@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "0lukas/storage-utils": "dev-master",
-        "0lukas/batch": "dev-master",
+        "akeneo/storage-utils": "dev-master",
+        "akeneo/batch": "dev-master",
         "symfony/config": "^4.1",
         "symfony/console": "^4.1",
         "symfony/dependency-injection": "^4.1",
