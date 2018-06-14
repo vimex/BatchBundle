@@ -12,9 +12,9 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/0lukas/Batch" },
+        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtilsBundle" },
         { "type": "vcs", "url": "https://github.com/0lukas/StorageUtils" },
-        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtilsBundle" }
+        { "type": "vcs", "url": "https://github.com/0lukas/Batch" }
     ],
     "require": {
         "php": ">=7.1.0",
