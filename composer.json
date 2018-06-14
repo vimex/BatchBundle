@@ -16,20 +16,20 @@
         "vimex/storage-utils-bundle": "dev-master",
         "vimex/storage-utils": "dev-master",
         "vimex/batch": "dev-master",
-        "symfony/config": "^3.4|^4.0",
-        "symfony/console": "^3.4|^4.0",
-        "symfony/dependency-injection": "^3.4|^4.0",
-        "symfony/event-dispatcher": "^3.4|^4.0",
-        "symfony/http-kernel": "^3.4|^4.0",
-        "symfony/translation": "^3.4|^4.0",
-        "symfony/process": "^3.4|^4.0",
-        "symfony/security": "^3.4|^4.0",
-        "symfony/validator": "^3.4|^4.0",
-        "symfony/framework-bundle": "^3.4|^4.0",
+        "symfony/config": "^3.4||^4.0",
+        "symfony/console": "^3.4||^4.0",
+        "symfony/dependency-injection": "^3.4||^4.0",
+        "symfony/event-dispatcher": "^3.4||^4.0",
+        "symfony/http-kernel": "^3.4||^4.0",
+        "symfony/translation": "^3.4||^4.0",
+        "symfony/process": "^3.4||^4.0",
+        "symfony/security": "^3.4||^4.0",
+        "symfony/validator": "^3.4||^4.0",
+        "symfony/framework-bundle": "^3.4||^4.0",
         "doctrine/orm": "^2.5",
         "monolog/monolog": "^2.3",
-        "twig/extensions": "^1.5",
-        "symfony/swiftmailer-bundle": "^3.2.2"
+        "twig/extensions": "^1.0",
+        "symfony/swiftmailer-bundle": "^2.6.4||^3.2.2"
     },
     "require-dev": {
         "phpspec/phpspec": "3.0.0"
@@ -40,5 +40,5 @@
     "autoload": {
         "psr-4": { "Akeneo\\Bundle\\BatchBundle\\": "" }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
