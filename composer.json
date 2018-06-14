@@ -13,10 +13,12 @@
     ],
     "repositories": [
         { "type": "vcs", "url": "https://github.com/0lukas/Batch" },
-        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtils" }
+        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtils" },
+        { "type": "vcs", "url": "https://github.com/0lukas/StorageUtilsBundle" }
     ],
     "require": {
         "php": ">=7.1.0",
+        "vimex/storage-utils-bundle": "dev-master",
         "vimex/storage-utils": "dev-master",
         "vimex/batch": "dev-master",
         "symfony/config": "^4.1",
