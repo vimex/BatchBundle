@@ -16,6 +16,7 @@ parameters:
 services:
     akeneo_batch.job_instance_factory:
         class: '%akeneo_batch.job_instance_factory.class%'
+        public: true
         arguments:
             - '%akeneo_batch.entity.job_instance.class%'
 
