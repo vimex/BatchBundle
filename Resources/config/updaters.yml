@@ -4,6 +4,7 @@ parameters:
 services:
     akeneo_batch.updater.job_instance:
         class: '%akeneo_batch.updater.job_instance.class%'
+        public: true
         arguments:
             - '@akeneo_batch.job_parameters_factory'
             - '@akeneo_batch.job.job_registry'

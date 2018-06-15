@@ -1,6 +1,7 @@
 services:
     akeneo_batch.saver.job_instance:
         class: '%akeneo_storage_utils.saver.base.class%'
+        public: true
         arguments:
             - '@doctrine.orm.entity_manager'
             - '@event_dispatcher'
