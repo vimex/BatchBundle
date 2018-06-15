@@ -42,6 +42,7 @@ services:
 
     akeneo_batch.job.job_parameters_validator:
         class: '%akeneo_batch.job.job_parameters_validator.class%'
+        public: true
         arguments:
             - '@validator'
             - '@akeneo_batch.job.job_parameters.constraint_collection_provider_registry'
