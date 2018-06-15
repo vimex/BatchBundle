@@ -29,6 +29,7 @@ services:
 
     akeneo_batch.job_parameters_factory:
         class: '%akeneo_batch.job_parameters_factory.class%'
+        public: true
         arguments:
             - '@akeneo_batch.job.job_parameters.default_values_provider_registry'
             - '%akeneo_batch.job.job_parameters.class%'
