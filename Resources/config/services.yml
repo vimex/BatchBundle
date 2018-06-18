@@ -52,6 +52,7 @@ services:
 
     akeneo_batch.logger.batch_log_handler:
         class: '%akeneo_batch.logger.batch_log_handler.class%'
+        public: true
         arguments:
             - 100
             - true
